@@ -1,16 +1,14 @@
 {
-  "name": "express-hello-world",
+  "name": "agent-eon-5-1",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
-  "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
-  "license": "MIT",
+  "description": "Agent Éon 5.1 - Application Autonome Biométrique",
+  "main": "server.js",
   "private": false,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^5.0.0"
+    "express": "^4.19.2",
+    "axios": "^1.6.8"
   }
 }
